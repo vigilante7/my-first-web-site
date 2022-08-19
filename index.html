@@ -3,6 +3,34 @@
 <head>
   <title>Factory Finder</title>
   <meta charset="utf-8">
+  <style>
+    body{
+      margin:0;
+    }
+    a {
+     color:black;
+     text-decoration: none;
+    }
+    #active {
+      color:red;
+    }
+    .saw {
+      color:gray;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:20px;
+    }
+    ol{
+      border-right:1px solid gray;
+      width:100px;
+      margin:0;
+      padding:20px;
+    }
+  </style>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-E7CCGLECFN"></script>
 <script>
@@ -14,12 +42,20 @@
 </script>
 </head>
 <body>
-  <h1><a href="index.html">Factory Finder</a></h1>
+  <h1><a href="index.html" class="saw" id="active">Factory Finder</a></h1>
   <ol>
-    <li><a href="tex.html">섬유</a></li>
-    <li><a href="ele.html">전자</a></li>
+    <li><a href="tex.html" class="saw">섬유</a></li>
+    <li><a href="ele.html" class="saw">전자</a></li>
     <li><a href="che.html">화학</a></li>
   </ol>
+  <!--
+  <h1><a href="index.html"><font color="red">Factory Finder</font></a></h1>
+  <ol>
+    <li><a href="tex.html"><font color="red">섬유</font></a></li>
+    <li><a href="ele.html"><font color="red">전자</font></a></li>
+    <li><a href="che.html"><font color="red">화학</font></a></li>
+  </ol>
+  -->
   <h2>Factory Finder</h2>
   <p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/oRaPJWH4UTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
